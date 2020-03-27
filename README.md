@@ -42,9 +42,9 @@ $ composer create-project flarum/flarum flarum-s --stability=beta
 
 Install Http Server Swoole for Flarum-S
 ```bash
-$ composer require trint/flarum-s:dev-master
+$ composer require knik/flarum-s:dev-master
 $ composer update -o
-$ cp -rf vendor/trint/flarum-s/bin/ bin/
+$ cp -rf vendor/knik/flarum-s/bin/ bin/
 $ chmod 755 bin/flarum-s
 ```
 

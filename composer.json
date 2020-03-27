@@ -1,5 +1,5 @@
 {
-    "name": "trint/flarum-s",
+    "name": "knik/flarum-s",
     "description": "Asynchronous PHP web servers for Flarum.",
     "type": "library",
     "minimum-stability": "beta",
@@ -8,13 +8,18 @@
     "homepage": "https://flarum.org/",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/trint/flarum-s/issues",
-        "source": "https://github.com/trint/flarum-s/"
+        "issues": "https://github.com/et-nik/flarum-s/issues",
+        "source": "https://github.com/et-nik/flarum-s/"
     },
     "authors": [
         {
             "name": "Trint",
             "email": "trint.dev@gmail.com"
+        },
+        {
+            "name": "Nikita Kuznetsov",
+            "email": "nikita.hldm@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
