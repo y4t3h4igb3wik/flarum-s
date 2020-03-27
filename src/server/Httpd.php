@@ -97,8 +97,14 @@ class Httpd
     public function onRequest(\Swoole\Http\Request $request, \Swoole\Http\Response $response)
     {
         try {
-            $psrResponse = $this->_request_handle->handle((new Psr7RequestBuilder)->build($request));
-            (new SwooleResponseEmitter)->toSwoole($psrResponse, $response);
+            if ($request->server['path_info'] != '/'
+                && file_exists($this->path['public'] . '/' . $request->server['path_info'])
+            ) {
+                $response->sendfile($this->path['public'] . '/' . $request->server['path_info']);
+            } else {
+                $psrResponse = $this->_request_handle->handle((new Psr7RequestBuilder)->build($request));
+                (new SwooleResponseEmitter)->toSwoole($psrResponse, $response);
+            }
         } catch (\Throwable $e) {
             $errors = [
                 'code'    => $e->getCode(),
