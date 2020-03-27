@@ -1,13 +1,13 @@
 <?php
 
-namespace Flarum\Daemon\Service;
+namespace FlarumS\Daemon\Service;
 
-use Flarum\Console\Flag;
-use Flarum\Console\Color;
+use FlarumS\Console\Flag;
+use FlarumS\Console\Color;
 
 /**
  * Class StartComand
- * @package Flarum\Daemon\Service
+ * @package FlarumS\Daemon\Service
  * @author <trint.dev@gmail.com>
  */
 class StartCommand extends BaseCommand
@@ -33,7 +33,7 @@ class StartCommand extends BaseCommand
         $this->update = Flag::bool(['u', 'update'], false);
         $this->daemon = Flag::bool(['d', 'daemon'], false);
 
-        $server = new \Flarum\Server\Httpd($this->path, $this->setting);
+        $server = new \FlarumS\Server\Httpd($this->path, $this->setting);
 
         if ($this->update) {
             $server->setting['max_request'] = 1;

@@ -8,4 +8,4 @@
 
 require '../vendor/autoload.php';
 $config = require 'config.php';
-(new Flarum\Console\Command($config))->run();
+(new FlarumS\Console\Command($config))->run();

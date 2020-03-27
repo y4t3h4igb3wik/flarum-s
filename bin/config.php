@@ -20,7 +20,7 @@ return [
         'open_tcp_nodelay' => true,
         'max_request'      => 0,
     ],
-    'commandNamespace' => 'Flarum\Daemon',
+    'commandNamespace' => 'FlarumS\Daemon',
     'commands' => [
         'service start' => [
             'Service\Start',

@@ -1,10 +1,10 @@
 <?php
 
-namespace Flarum\Console;
+namespace FlarumS\Console;
 
 /**
  * Class Color
- * @package Flarum\Console
+ * @package FlarumS\Console
  * @author <trint.dev@gmail.com>
  */
 class Color

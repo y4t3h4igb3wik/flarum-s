@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Flarum\Server;
+namespace FlarumS\Server;
 
 use Psr\Http\Message\ResponseInterface;
 use Swoole\Http\Response as SwooleResponse;
@@ -9,7 +9,7 @@ use Zend\HttpHandlerRunner\Emitter\SapiEmitterTrait;
 
 /**
  * Class SwooleResponseEmitter
- * @package Flarum\Server
+ * @package FlarumS\Server
  * @author <trint.dev@gmail.com>
  */
 class SwooleResponseEmitter

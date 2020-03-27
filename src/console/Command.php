@@ -1,14 +1,10 @@
 <?php
 
-namespace Flarum\Console;
-
-use Flarum\Console\Flag;
-use Flarum\Console\Color;
-use Flarum\Console\Arguments;
+namespace FlarumS\Console;
 
 /**
  * Class Command
- * @package Flarum\Console
+ * @package FlarumS\Console
  * @author <trint.dev@gmail.com>
  */
 class Command

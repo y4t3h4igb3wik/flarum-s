@@ -1,10 +1,10 @@
 <?php
 
-namespace Flarum\Server;
+namespace FlarumS\Server;
 
 /**
  * Class SwooleEvent
- * @package Flarum\Server
+ * @package FlarumS\Server
  * @author <trint.dev@gmail.com>
  */
 class SwooleEvent

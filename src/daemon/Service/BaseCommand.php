@@ -1,10 +1,10 @@
 <?php
 
-namespace Flarum\Daemon\Service;
+namespace FlarumS\Daemon\Service;
 
 /**
  * Class BaseComand
- * @package Flarum\Daemon\Service
+ * @package FlarumS\Daemon\Service
  * @author <trint.dev@gmail.com>
  */
 class BaseCommand

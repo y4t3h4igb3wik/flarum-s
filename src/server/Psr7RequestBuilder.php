@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Flarum\Server;
+namespace FlarumS\Server;
 
 use Swoole\Http\Request as SwooleRequest;
 use Zend\Diactoros\ServerRequest;
@@ -9,7 +9,7 @@ use Zend\Diactoros\Stream;
 
 /**
  * Class Psr7RequestBuilder
- * @package Flarum\Server
+ * @package FlarumS\Server
  * @author <trint.dev@gmail.com>
  */
 class Psr7RequestBuilder

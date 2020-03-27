@@ -1,12 +1,12 @@
 <?php
 
-namespace Flarum\Daemon\Service;
+namespace FlarumS\Daemon\Service;
 
-use Flarum\Console\Color;
+use FlarumS\Console\Color;
 
 /**
  * Class statusComand
- * @package Flarum\Daemon\Service
+ * @package FlarumS\Daemon\Service
  * @author <trint.dev@gmail.com>
  */
 class StatusCommand extends BaseCommand
