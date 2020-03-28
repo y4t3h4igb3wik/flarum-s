@@ -91,7 +91,7 @@ class Httpd
             $this->setProcessTitle(static::SERVER_NAME . ": task #{$workerId}");
         }
 
-        $this->_request_handle = \FlarumS\Foundation\Site::fromPaths($this->path)->bootApp()->getRequestHandler();
+        $this->_request_handle = \Flarum\Foundation\Site::fromPaths($this->path)->bootApp()->getRequestHandler();
     }
 
     public function onRequest(\Swoole\Http\Request $request, \Swoole\Http\Response $response)

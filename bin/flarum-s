@@ -7,5 +7,6 @@
  */
 
 require '../vendor/autoload.php';
+
 $config = require 'config.php';
-(new FlarumS\Console\Command($config))->run();
+(new \FlarumS\Console\Command($config))->run();
