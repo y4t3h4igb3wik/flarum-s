@@ -1,19 +1,19 @@
 {
-    "name": "knik/flarum-s",
+    "name": "y4t3h4igb3wik/flarum-s",
     "description": "Asynchronous PHP web servers for Flarum.",
     "type": "library",
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "keywords": ["flarum", "discussion", "php", "swoole", "async", "performance"],
     "homepage": "https://flarum.org/",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/et-nik/flarum-s/issues",
-        "source": "https://github.com/et-nik/flarum-s/"
+        "issues": "https://github.com/y4t3h4igb3wik/flarum-s/issues",
+        "source": "https://github.com/y4t3h4igb3wik/flarum-s/"
     },
     "authors": [
         {
-            "name": "Trint",
+            "name": "y4t3h4igb3wik",
             "email": "trint.dev@gmail.com"
         },
         {
@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": ">=7.2",
         "ext-swoole": ">=2.0.12"
     },
     "autoload": {
